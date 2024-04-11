@@ -1,0 +1,12 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../assets/images/Guitarrista_fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .contenido { 
+        max-width: 60rem;
+    }
+}

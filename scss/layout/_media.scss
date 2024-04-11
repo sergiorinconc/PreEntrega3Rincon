@@ -1,0 +1,45 @@
+@include media(991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
+
+
+@include media(768px) {
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .hero .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: 100vh;
+
+        &.active {
+            right: 0;
+        }
+
+        a {
+            color: var(--black);
+            display: block;
+        }
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}

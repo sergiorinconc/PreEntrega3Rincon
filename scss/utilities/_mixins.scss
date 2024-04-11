@@ -1,0 +1,6 @@
+// abstracts/_media.scss
+@mixin media($breakpoint) {
+    @media only screen and (max-width: $breakpoint) {
+      @content;
+    }
+  }

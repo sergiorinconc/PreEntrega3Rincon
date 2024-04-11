@@ -1,0 +1,29 @@
+.title {
+
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+
+    span {
+    color: var(--main-color);
+    text-transform: uppercase;
+    }
+    
+}
+
+
+h2, h3  { 
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+p { 
+        font-size: 1.5rem;
+        font-weight: lighter;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: #eee;
+    }
